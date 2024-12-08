@@ -16,7 +16,7 @@ const Mail=(
             message:message
         };
 
-        fetch("http://localhost:5000/sendmail",
+        fetch("https://testing-wine-nine-18.vercel.app/sendmail",
             {
             method:"POST",
             headers: { "Content-Type": "application/json" },
