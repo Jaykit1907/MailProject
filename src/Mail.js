@@ -16,7 +16,7 @@ const Mail=(
             message:message
         };
 
-        fetch("https://mailbackend-beta.vercel.app/?vercelToolbarCode=QS931Y6ZuFyle8m/sendmail",
+        fetch("http://localhost:5000/sendmail",
             {
             method:"POST",
             headers: { "Content-Type": "application/json" },
